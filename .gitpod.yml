@@ -26,3 +26,5 @@ ports:
 vscode:
   extensions:
     - ms-azuretools.vscode-docker
+    - bmewburn.vscode-intelephense-client
+    - zobo.php-intellisense
