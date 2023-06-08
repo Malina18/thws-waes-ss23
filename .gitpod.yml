@@ -3,6 +3,7 @@ tasks:
   - name: Init Laravel
     init: |
       cd monolith
+      cp .env.example .env
       docker run --rm -u "$(id -u):$(id -g)" -v $(pwd):/opt -w /opt laravelsail/php82-composer:latest composer install --ignore-platform-reqs
     command: | 
       cd monolith
