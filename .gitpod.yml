@@ -9,7 +9,6 @@ tasks:
       cd monolith
       alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
       sail up
-
   - name: Init VueJS
     init: |
       echo Booting VueJS...
@@ -26,5 +25,4 @@ ports:
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 vscode:
   extensions:
-    - mtxr.sqltools
     - ms-azuretools.vscode-docker
