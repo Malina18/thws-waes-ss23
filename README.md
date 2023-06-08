@@ -6,6 +6,7 @@
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub Account](https://github.com)
 - [Gitpod Account](https://www.gitpod.io/)
+- [Repo](https://github.com/Brotzka/thws-waes-ss23) forken
 
 ## Projekt
 
