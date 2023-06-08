@@ -32,5 +32,4 @@ ports:
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 vscode:
   extensions:
-    - mtxr.sqltools
     - ms-azuretools.vscode-docker
