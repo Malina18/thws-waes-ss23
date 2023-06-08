@@ -9,13 +9,7 @@ tasks:
       cd monolith
       alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
       sail up
-
-  - name: Additional Laravel commands
-    command: |
-      cd monolith
-      alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
-      sail artisan migrate
-
+      
   - name: Init VueJS
     init: |
       echo Booting VueJS...
