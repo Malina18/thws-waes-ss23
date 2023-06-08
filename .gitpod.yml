@@ -4,18 +4,15 @@ tasks:
     init: |
       cd monolith
       docker run --rm -u "$(id -u):$(id -g)" -v $(pwd):/opt -w /opt laravelsail/php82-composer:latest composer install --ignore-platform-reqs
-    before: |
-      cd monolith
-      alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
     command: | 
       cd monolith
+      alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
       sail up
 
   - name: Additional Laravel commands
-    before: |
+    command: |
       cd monolith
       alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
-    command: |
       sail artisan migrate
 
   - name: Init VueJS
