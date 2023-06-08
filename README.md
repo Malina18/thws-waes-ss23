@@ -29,5 +29,6 @@ Wir erstellen eine einfache To-Do-App. Das Backend wird hierbei mit Laravel als 
 
 - Backend
     - Zerlegen der Controller-Logik in Requests, Controller, API Resources
+    - Paginierung
 - Frontend
     - ...
