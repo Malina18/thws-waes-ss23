@@ -7,6 +7,7 @@
 - [GitHub Account](https://github.com)
 - [Gitpod Account](https://www.gitpod.io/)
 - [Repo](https://github.com/Brotzka/thws-waes-ss23) forken
+- [Postman](https://www.postman.com/) für das Testen der API Endpunkte
 
 ## Projekt
 
